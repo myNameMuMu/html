@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- form表单 name名字 action表单提交的地址-->
+  <form name="user"  action="复习.html">
+   <!-- 表单控件input  type类型 value值 -->
+   <!-- text文本框 -->
+   用户名：
+   <input type="text"><br />
+   <!-- 密码框 password-->
+   请输入密码:
+  <input type="password" /><br />
+   <!-- 按钮组 -->
+   <!-- 单选radio 必须加一个同样的name属性 -->
+  请选择你的性别: 男:<input type="radio"  name="sex"/> 女:<input type="radio"  name="sex"/><br />
+  <!-- 多选 checkbox-->
+   爱好:
+   吃饭:<input type="checkbox"/>打篮球:<input type="checkbox"/>睡觉:<input type="checkbox"/><br />
+   <!-- 提交按钮submit-->
+   <input type="submit"/><br />
+   <!-- 重置按钮 reset -->
+   <input type="reset"/><br />
+   <!-- 普通按钮 button -->
+   <input type="button" value="我是一个普通按钮"/><br />
+   <!-- 图片按钮 -->
+   <input type="image" src="./1.jpg"/><br />
+   <!-- 文件域 -->
+   <input type="file"/><br />
+   <!-- 隐藏域  他不会显示在我们的页面中，但是一般用来传递隐藏的数据 -->
+   <input type="hidden"/><br />
+   <!-- 下拉框select>option-->
+   <select>
+    <option>水果</option>
+    <option>苹果</option>
+    <option>大白菜</option>
+   </select>
+   <br />
+   <!-- textarea文本域 -->
+   <textarea></textarea>
+  </form>
+</body>
+</html>

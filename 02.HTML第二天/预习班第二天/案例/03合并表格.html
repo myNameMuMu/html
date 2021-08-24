@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合并表格</title>
+</head>
+<body>
+    <!-- table表格表标签    border边框   width宽度  height高度   cellspacing边框间距   cellpadding表格字间距 -->
+    <table border="1" width="500" height="250" cellspacing="0">
+        <!-- colepan跨列合并    rowspan跨行合并         -->
+        <!--合并三步
+            1确定跨列（colspan）还是跨行（rowspan）
+            2确定目标单元格rowspan="合并的数量" （colspan="合并的数量"）
+            3删除多余的
+
+         -->
+        <tr>
+            
+            <td colspan="2"></td>
+            
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>        
+        </tr>
+    </table>
+    
+</body>
+</html>

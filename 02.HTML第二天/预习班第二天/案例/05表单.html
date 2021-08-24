@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+</head>
+
+<body>
+    <!-- form表单域 -->
+    <form action="">
+        <!-- input表单控件  tupe值  text文本框    -->
+        <!-- name 名字  表单元素的名称
+        value值 -->
+        用户名：<input type="text" name="userneme" value="请输入用户名"><br>
+        <!-- password密码框 maxlength 设置表单输入框最多输入字符数-->
+        密码：<input type="password" name="password" value="" maxlength="5"><br>
+        <!-- radio 单选按钮 多选一   需要搭配name标签使用   chenked="checked" 设置单选或者多选默认选中项-->
+        性别：男<input type="radio" name="gender" value="男" checked="checked"> 女<input type="radio" name="gender"
+            value="nv"><br>
+        <!-- checekbox多选按钮 -->
+        爱好：吃饭<input type="checkbox" name="hobby" value="吃饭" checked> 睡觉<input type="checkbox" name="hobby" value="睡觉">
+        打豆豆<input type="checkbox" name="hobby" value="打豆豆"><br>
+        <!-- submit提交按钮  reset重置按钮  submit和reset按钮都可以用value修改样式 -->
+        <input type="submit" value="免费注册">
+        <input type="reset" value="重新填写">
+        <!-- button普通按钮 不能提交   配合js做特效 -->
+        <input type="button" value="获取验证码"><br>
+        <!-- file文件域  文件上传控件 -->
+        上传头像：<input type="file">
+    </form>
+</body>
+
+</html>

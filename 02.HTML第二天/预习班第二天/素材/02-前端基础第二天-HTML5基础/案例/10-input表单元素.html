@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>input 表单元素</title>
+</head>
+
+<body>
+    <!-- action  收集的用户信息提交给那个文件处理 -->
+    <form action="xxx.php">
+        <!-- input 输入的意思  type 类型 -->
+        <!-- text 文本框 用户可以里面输入任何文字 -->
+        <!-- name 名称 用来区分不同的表单元素  
+            value 值
+            maxlength 输入的最多字符数
+        -->
+        用户名: <input type="text" name="username" value="请输入用户名" maxlength="2"> <br />
+        <!-- password 密码框 用户看不见输入的密码 -->
+        密码: <input type="password" name="pwd"> <br />
+        <!-- 单选框单选和多选的name值必须设置相同
+        checked="checked" 设置单选和多选默认选项
+     -->
+        性别: 男 <input type="radio" name="sex" value="男" checked="checked">
+        女 <input type="radio" name="sex" value="女">
+        人妖 <input type="radio" name="sex" value="人妖">
+        <br />
+        <!-- 多选框 -->
+        爱好: 麻辣烫 6块的 <input type="checkbox" name="hobby" value="麻辣烫">
+        麻婆豆腐 <input type="checkbox" name="hobby" value=" 麻婆豆腐" checked="checked">
+        麻将 <input type="checkbox" name="hobby" value="麻将"> <br>
+        <!-- 提交按钮 value 可以更改按钮上的文字 就是把form的内容提交给服务器处理-->
+        <input type="submit" value="立即注册">
+        <!-- 重置按钮  恢复到初始值-->
+        <input type="reset" value="重新填写">
+        <br>
+
+        <!-- 普通按钮 不能提交 配合js使用-->
+        <input type="button" value="普通按钮">
+        <br>
+        <!-- 文件域  文件上传按钮 -->
+        <input type="file" name="upload">
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
